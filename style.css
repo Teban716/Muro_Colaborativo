@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+.contenedor{
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle,#00f,#0ff);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor .estilos{
+    font-family:fantasy;
+    width: 300px;
+    color: aquamarine;
+    transition: .3s;
+}
+.contenedor .estilos:hover{
+    color: black;
+}
