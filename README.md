@@ -4,7 +4,8 @@
 
 #### Objetivo General
 
-Crear una página web moderna y responsive de manera colaborativa donde cada desarrollador será responsable de implementar un elemento HTML específico con sus respectivos estilos CSS. Este ejercicio tiene múltiples propósitos:
+Practicar el flujo colaborativo en Git (ramas, issues, PRs, revisiones) contribuyendo a un sitio web simple que recoja principios de buenas prácticas en desarrollo.
+
 
 - Practicar el flujo de trabajo colaborativo en Git utilizando ramas, issues y pull requests
 - Fortalecer el conocimiento de HTML semántico y CSS moderno
