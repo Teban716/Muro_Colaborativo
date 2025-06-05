@@ -4,15 +4,22 @@
 
 #### Objetivo General
 
-Practicar el flujo colaborativo en Git (ramas, issues, PRs, revisiones) contribuyendo a un sitio web simple que recoja principios de buenas prácticas en desarrollo.
+Crear una página web moderna y responsive de manera colaborativa donde cada desarrollador será responsable de implementar un elemento HTML específico con sus respectivos estilos CSS. Este ejercicio tiene múltiples propósitos:
+
+- Practicar el flujo de trabajo colaborativo en Git utilizando ramas, issues y pull requests
+- Fortalecer el conocimiento de HTML semántico y CSS moderno
+- Aprender a integrar diferentes componentes en una estructura web coherente
+- Experimentar con el proceso de code review y feedback entre compañeros
+- Desarrollar habilidades de documentación y comunicación técnica
 
 ---
 
 ### Estructura del Repositorio
 
-* `/index.html` → donde cada coder agregará su principio con un `<h1>`
-* `/style.css` → donde cada coder estilizará su `h1` con su `id`
-* `README.md` → con instrucciones del flujo de trabajo
+* `/index.html` → Archivo HTML principal donde cada coder agregará su elemento HTML asignado según `ASIGNACIONES.md`
+* `/style.css` → Archivo CSS donde cada coder agregará los estilos para su elemento asignado
+* `/ASIGNACIONES.md` → Documento con las asignaciones específicas para cada coder
+* `README.md` → Instrucciones del flujo de trabajo y estructura del proyecto
 
 ---
 
@@ -28,7 +35,7 @@ Practicar el flujo colaborativo en Git (ramas, issues, PRs, revisiones) contribu
    ```bash
    git checkout main
    git pull origin main
-   git checkout -b feature/coder-N-elemento    # Reemplaza N con tu número de coder
+   git checkout -b feature/coder-N-elemento    # Reemplaza N con tu nombre de coder
    ```
 
 3. **Editar `index.html` y `style.css`**
