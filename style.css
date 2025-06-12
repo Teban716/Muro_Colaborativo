@@ -45,6 +45,14 @@ footer a{
 }
  /* end coder 6 */
 
+ 
+ /* start coder 25*/
+ #riwi_logo{
+    border-radius: 50%;
+ }
+/* end coder 25 */
+
+
 .output-- {
     width: 15%;
     padding: 1rem;
