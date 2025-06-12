@@ -81,6 +81,45 @@ header {
     margin-right: 15px;
 }
 
+/* Start - Coder 7: Aside */
+.sidebar{
+    display: flex;
+    flex-flow: column;
+    color: black;
+    flex: 0.325;
+    margin-left: 80%;
+    margin-right: 1em;
+    width: auto;
+}
+
+.cards > * {
+    background: cyan;
+}
+
+.sidebar > section{
+    display: flex;
+    flex-flow: column;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.sidebar section h3{
+    font-weight: 500;
+    font-size: 1.6625rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar section .card{
+    border-bottom: 2px solid blue;
+    padding: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+
+/* Finish - Coder 7: Aside */
 .virtualClock{
     display: flex;
     margin: 0;
@@ -158,4 +197,11 @@ header {
     border-radius: 10px;
     width: 250px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 480px) {
+    .sidebar{
+        display: none;
+    }
 }
